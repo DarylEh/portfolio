@@ -1,0 +1,91 @@
+header {
+    // background: linear-gradient(90deg, #00f2fe 0%, #0393ff 100%);
+    // background-size: contain;
+    height: 100vh;
+    // background: linear-gradient(90deg, #00f2fe 0%, #0393ff 100%),url('https://picsum.photos/1920/1080');
+    background: linear-gradient(90deg, rgba(0, 242, 254, .25) 0%, rgba(3, 147, 255, .25) 100%), url('https://picsum.photos/1920/1080') no-repeat center;
+    // position: relative;
+
+    
+}
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    // letter-spacing: 2px;
+    font-size: 5.2rem;
+    
+}
+
+.nav-head {
+    display: flex;
+    justify-content: space-between;
+    
+} 
+// .logo-container {
+    
+// }
+.nav-list {
+    display: flex;
+    padding: 0;
+    li {
+        margin: 10px;
+        transition: $allTrans;
+    }   
+    li:hover {
+        transform: scale(1.2);
+    }
+        a {
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: $anchorColor;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: $underlineColor 2px solid;
+            transition: $allTrans;
+
+        
+        }
+            a:hover {
+                // color: $accentColor;
+                transform: scale(2);
+                border-bottom: $accentColor 2px solid;
+
+            }
+
+}
+
+
+// .nav-list li a::after {
+//     position: absolute;
+//     content: '';
+//     height: 2px;
+//     background-color: $underlineColor;
+//     width: 100%;
+//     opacity: 0;
+//     top: 30px;
+//     left: 15px;
+//     transition: $allTrans;
+// }
+
+.navList a:hover, .navList a:focus {
+    top: -3px;
+    font-size: 0.8rem;
+}
+.navList a:hover::after, .navList a:focus::after {
+    top: 40px;
+    opacity: 1;
+}
+
+.hero-text {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+}

@@ -1,0 +1,22 @@
+.about-me {
+    background-color: $secondaryBackgroundColor;
+}
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-me h3{
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+.about-me h4 {
+    margin: 5px;
+}
+.social-media i {
+    font-size: 2rem;
+    margin: 10px;
+}

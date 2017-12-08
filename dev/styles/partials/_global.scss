@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+}
+h1, p, a {
+    font-family: $muli;
+}
+h1 {
+    font-size: 5.2rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.2rem;
+}
+p {
+    font-size: 1.6rem;
+}
+
+.wrapper {
+    // width: 96%;
+    max-width: 960px;
+    // background-color: $lightText;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+    // margin-bottom: 100px;
+    
+}
+.inner-wrapper {
+    max-width: 430px;
+    margin: 0 auto;
+    
+}
+.nav-list li {
+    list-style: none;
+
+}
+.section-header h3{
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+.section-header {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
