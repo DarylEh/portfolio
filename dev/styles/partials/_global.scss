@@ -1,7 +1,7 @@
 html {
     font-size: 62.5%;
 }
-h1, p, a {
+h1, h3, h4, h5, p, a {
     font-family: $muli;
 }
 h1 {
@@ -12,6 +12,9 @@ h3 {
 }
 h4 {
     font-size: 2.2rem;
+}
+h5 {
+    font-size: 2.0rem;
 }
 p {
     font-size: 1.6rem;
@@ -28,7 +31,7 @@ p {
     
 }
 .inner-wrapper {
-    max-width: 430px;
+    max-width: 630px;
     margin: 0 auto;
     
 }
@@ -41,8 +44,12 @@ p {
     padding: 10px;
 }
 .section-header {
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
+}
+.skills-icon, .foot-icon{
+    color: $iconColor;
 }

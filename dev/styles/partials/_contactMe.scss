@@ -1,0 +1,31 @@
+// .contact-me {
+//     margin: 20px;
+// }
+.form-top input{
+    display: block;
+    width: calc(50% - 20px);   
+    float: left; 
+    margin: 10px;
+    padding: 10px;
+}
+.message {
+    width: 97%;
+    margin: 10px;
+    padding: 10px;
+
+}
+.form-top input,
+.message {
+    border: none;
+    border-bottom: 1px solid $underlineColor;
+}
+.submitButton {
+    border-radius: 40px;
+    position: relative;
+    left: 40%;
+    margin: 10px 0 25px 0;
+    padding: 25px 50px;
+    background-color: $mainColor;
+    color: $anchorColor;
+    font-size: 1.6rem;
+}

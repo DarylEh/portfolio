@@ -34,7 +34,10 @@
 </header>
 <body>
     <section class="skills wrapper">
-        
+        <div class="section-header">
+            <h3>Skills</h3>
+        </div>
+        <div class="skills-list">
             <div class="skills-icons">
                 <i class="skills-icons-item devicon-react-original-wordmark"></i>
             </div>
@@ -66,6 +69,7 @@
             <div class="skills-icons">
                 <i class="skills-icons-item devicon-github-plain-wordmark"></i>
             </div>
+        </div>
         
 
     </section>
@@ -84,61 +88,69 @@
                 </div>
         </div>
     </section>
-    <section class="portfolio">
-        <div class="section-headder inner-wrapper">
+    <section class="portfolio wrapper">
+        <div class="section-header inner-wrapper">
             <h3>My Projects</h3>
         </div>
         <div class="portfolio-pieces">
             <div class="portfolio portfolio-left">
-                <h4>Portfolio Piece 1</h4>
                 <img src="http://fillmurray.com/500/500" alt="">
             </div>
             <div class="portfolio portfolio-right">
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h4>
+                <h4>Portfolio Piece 1</h4>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut aliquid est ipsam totam numquam excepturi molestias aut, sunt modi autem eos non blanditiis libero, fugit quibusdam, odit labore perferendis.</p>
             </div>
         </div>
         <div class="portfolio-pieces">
             <div class="portfolio portfolio-left">
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h4>
+                <h4>Portfolio Piece 2</h4>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut aliquid est ipsam totam numquam excepturi molestias aut,
                     sunt modi autem eos non blanditiis libero, fugit quibusdam, odit labore perferendis.</p>
             </div>
             <div class="portfolio portfolio-right">
-                <h4>Portfolio Piece 2</h4>
                 <img src="http://fillmurray.com/500/500" alt="">
             </div>
         </div>
         <div class="portfolio-pieces">
             <div class="portfolio portfolio-left">
-                <h4>Portfolio Piece 3</h4>
+                
                 <img src="http://fillmurray.com/500/500" alt="">
             </div>
             <div class="portfolio portfolio-right">
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h4>
+                <h4>Portfolio Piece 3</h4>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut aliquid est ipsam totam numquam excepturi molestias
                     aut, sunt modi autem eos non blanditiis libero, fugit quibusdam, odit labore perferendis.</p>
             </div>
         </div>
     </section>
-    <section class="contact-me">
+    <section class="contact-me inner-wrapper">
+        <div class="section-header">
+            <h3>Get in Touch</h3>
+        </div>
 
-        <form action="">
-            <input type="email" name="email" id="email" placeholder="Email"> 
-            <input type="text" name="name" id="name" placeholder="Name">
-            <input type="text" name="message" id="message" placeholder="message">
-            <input type="submit">
-
+        <form class="main-form" action="">
+            <div class="form-top">
+                <input type="email" name="email" id="email" placeholder="Email"> 
+                <input type="text" name="name" id="name" placeholder="Name">
+            </div> 
+            <textarea class="message" name="message" id="message" placeholder="Message" ></textarea>
+            <!-- <input class="message" type="text" name="message" id="message" placeholder="message"> -->
+            <input class="submitButton" type="submit">
         </form>
 
     </section>
 </body>
 <footer>
-    <div class="foot-email"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-    <div class="foot-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-    <div class="foot-gitHub"><i class="fa fa-github" aria-hidden="true"></i></div>
-    <div class="foot-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-    <div class="foot-log"><img src="<img src="https://picsum.photos/50" alt="">" alt=""></div>
+    <div class="foot-icon inner-wrapper">
+        <div class="foot-email"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="foot-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+        <div class="foot-gitHub"><i class="fa fa-github" aria-hidden="true"></i></div>
+        <div class="foot-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+    </div>
+    <p>&copy Daryl Amodan 2017</p>
 
 
 
