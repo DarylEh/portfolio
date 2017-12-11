@@ -7,14 +7,14 @@
     <title>Test</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://use.fontawesome.com/dd362c6f7b.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Muli:400,700|Roboto:400,700" rel="stylesheet">    
     <link rel="stylesheet" href="public/styles/style.css">
 </head>
 <header>
     <div class="header-content wrapper">
         <nav class="nav-head">
             <div class="logo-container">
-                <img src="https://picsum.photos/50" alt="">
+                <h1>da</h1>
             </div>
             <ul class='nav-list'>
                 <li class="nav-item"><a href="">Home</a></li>
@@ -25,9 +25,11 @@
                 </ul>
             </nav>
         <div class="hero-text">
-            <h1>My name is Daryl and I am your next Front-End Developer</h1>
-            <button>Undecided</button>
-            <button>Unecided</button>
+            <h1>Daryl Amodan</h1>
+            <div class="line"></div>
+            <h4>Front-End Web Developer</h4> 
+            <button class="header-button">Undecided</button>
+            <button class="header-button">Unecided</button>
 
         </div>    
     </div>
@@ -35,7 +37,7 @@
 <body>
     <section class="skills wrapper">
         <div class="section-header">
-            <h3>Skills</h3>
+            <h3>Skills & Tools Acquired Thus Far</h3>
         </div>
         <div class="skills-list">
             <div class="skills-icons">
@@ -77,15 +79,26 @@
         <div class="section-header">
             <h3>About Me</h3>
         </div>
-            <div class="about-me-content inner-wrapper ">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea natus accusamus molestiae corrupti enim officiis alias reiciendis saepe ducimus deleniti cumque, repellendus suscipit eum aut nostrum? Atque quaerat tenetur aut?</p>
-            <h4>follow me on </h4>
+        <div class="about-me-main wrapper">
+            <div class="about-me-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea natus accusamus molestiae corrupti enim officiis alias reiciendis saepe ducimus deleniti cumque, repellendus suscipit eum aut nostrum? Atque quaerat tenetur aut?</p>
+                <h4>Follow me on </h4>
                 <div class="social-media">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <div class="social-media-icon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="social-media-icon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class="social-media-icon">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </div>
                 </div>
+            </div>
+            <div class="about-me-photo">
+                <img src="/public/assets/headShot.jpg" alt="">
+            </div>
+
         </div>
     </section>
     <section class="portfolio wrapper">
@@ -94,52 +107,112 @@
         </div>
         <div class="portfolio-pieces">
             <div class="portfolio portfolio-left">
-                <img src="http://fillmurray.com/500/500" alt="">
+                <img src="/public/assets/soccer.png" alt="">
             </div>
             <div class="portfolio portfolio-right">
-                <h4>Portfolio Piece 1</h4>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut aliquid est ipsam totam numquam excepturi molestias aut, sunt modi autem eos non blanditiis libero, fugit quibusdam, odit labore perferendis.</p>
+                <h4>Can you make it?</h4>
+                <p>A React and Firebase App which allows teams from recreational leagues the ability to manage their games and roster attendance.</p>
+                <div class="portfolio-tools">
+                    <p>React.JS</p>
+                    <P>Firebase</P>
+                    <p>Javascript</p>
+                    <p>HTML 5</p>
+                    <p>CSS / SASS</p>
+                </div>
+                <div class="portfolio-buttons">
+                    <a class="demo" href="">Live Demo</a>
+                    <a class="gith" href="">GitHub</a>
+                </div>
             </div>
         </div>
         <div class="portfolio-pieces">
             <div class="portfolio portfolio-left">
-                <h4>Portfolio Piece 2</h4>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut aliquid est ipsam totam numquam excepturi molestias aut,
-                    sunt modi autem eos non blanditiis libero, fugit quibusdam, odit labore perferendis.</p>
+                <h4>Gastronomy Journal</h4>
+                <p>Combining the powers of React, Firebase and the open-table API—this App allows users to jot down notes of a restaurant they
+                recent visited.</p>
+                <div class="portfolio-tools">
+                    <p>React.JS</p>
+                    <P>Firebase</P>
+                    <p>API</p>
+                    <p>Javascript</p>
+                </div>
+                <div class="portfolio-buttons">
+                    <a class="demo" href="">Live Demo</a>
+                    <a class="gith" href="">GitHub</a>
+                </div>
             </div>
             <div class="portfolio portfolio-right">
-                <img src="http://fillmurray.com/500/500" alt="">
+                <img src="/public/assets/restaurant.png" alt="">
             </div>
         </div>
         <div class="portfolio-pieces">
             <div class="portfolio portfolio-left">
-                
-                <img src="http://fillmurray.com/500/500" alt="">
+                <img src="/public/assets/marvel.png" alt="">
             </div>
             <div class="portfolio portfolio-right">
-                <h4>Portfolio Piece 3</h4>
+                <h4>Marvel API</h4>
+                <p>Welcome to your friendly neighbourhood Marvel app. Enter a Marvel character and data will be pulled from the official Marvel
+                API.</p>
+                <div class="portfolio-tools">
+                    <p>API</p>
+                    <P>jQuery</P>
+                    <p>Responsive</p>
+                    <p>HTML 5</p>
+                    <p>CSS</p>
+                </div>
+                <div class="portfolio-buttons">
+                    <a class="demo" href="">Live Demo</a>
+                    <a class="gith" href="">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-pieces">
+            <div class="portfolio portfolio-left">
+                <h4>ZAP</h4>
+                <p>A modern, sleek and responsive PSD for a local agency.</p>
+                <div class="portfolio-tools">
+                    <p>Responsive Design</p>
+                    <P>HTML 5</P>
+                    <p>CSS</p>
+                    <p>Sass</p>
+                </div>
+                <div class="portfolio-buttons">
+                    <a class="demo" href="">Live Demo</a>
+                    <a class="gith" href="">GitHub</a>
+                </div>
+            </div>
+            <div class="portfolio portfolio-right">
+                    <img src="/public/assets/psd.png" alt="">
+            </div>
+        </div>
+        <!-- <div class="portfolio-pieces">
+            <div class="portfolio portfolio-left">
+                <h4>Portfolio Piece 4</h4>
                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut aliquid est ipsam totam numquam excepturi molestias
                     aut, sunt modi autem eos non blanditiis libero, fugit quibusdam, odit labore perferendis.</p>
             </div>
-        </div>
+            <div class="portfolio portfolio-right">
+                <img src="/public/assets/wrestlemania.png" alt="">
+            </div>
+        </div> -->
     </section>
-    <section class="contact-me inner-wrapper">
-        <div class="section-header">
-            <h3>Get in Touch</h3>
+    <section class="contact-me">
+        <div class="inner-wrapper">
+            <div class="section-header">
+                <h3>Get in Touch</h3>
+            </div>
+    
+            <form class="main-form" action=" action="https://formspree.io/darylamodan@gmail.com" method="POST"">
+                <div class="form-top">
+                    <input type="email" name="_replyto" id="email" placeholder="Email"> 
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </div> 
+                <textarea class="message" name="message" id="message" placeholder="Message" ></textarea>
+                <!-- <input class="message" type="text" name="message" id="message" placeholder="message"> -->
+                <input class="submitButton" type="submit" value="Send">
+            </form>
         </div>
-
-        <form class="main-form" action="">
-            <div class="form-top">
-                <input type="email" name="email" id="email" placeholder="Email"> 
-                <input type="text" name="name" id="name" placeholder="Name">
-            </div> 
-            <textarea class="message" name="message" id="message" placeholder="Message" ></textarea>
-            <!-- <input class="message" type="text" name="message" id="message" placeholder="message"> -->
-            <input class="submitButton" type="submit">
-        </form>
 
     </section>
 </body>

@@ -7,6 +7,9 @@ h1, h3, h4, h5, p, a {
 h1 {
     font-size: 5.2rem;
 }
+h2 {
+    font-size: 4.2rem;
+}
 h3 {
     font-size: 3.2rem;
 }
@@ -22,16 +25,16 @@ p {
 
 .wrapper {
     // width: 96%;
-    max-width: 960px;
+    max-width: 80%;
     // background-color: $lightText;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+    // box-shadow: 0 1px 5px rgba(0,0,0,0.25);
     // margin-bottom: 100px;
     
 }
 .inner-wrapper {
-    max-width: 630px;
+    max-width: 60%;
     margin: 0 auto;
     
 }

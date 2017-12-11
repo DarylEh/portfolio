@@ -1,5 +1,6 @@
 .portfolio-pieces{
     display: flex;
+    padding: 25px 0;
 
 }
 .portfolio h4 {
@@ -8,4 +9,26 @@
 .portfolio-left, 
 .portfolio-right {
     padding: 20px;
+    width: 50%;
+}
+.portfolio-left {
+    text-align: right;
+}
+portfolio-right {
+    text-align: left;
+}
+.portfolio-left img, 
+.portfolio-right img {
+    height: 100%;
+    width:100%;
+}
+.portfolio-tools {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.portfolio-tools p {
+    border: 2px solid $mainColor;
+    padding: 5px 10px;
+
 }
