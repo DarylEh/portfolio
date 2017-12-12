@@ -10,18 +10,19 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Muli:400,700|Roboto:400,700" rel="stylesheet">    
     <link rel="stylesheet" href="public/styles/style.css">
 </head>
-<header>
+<body>
+<header id="home" >
     <div class="header-content wrapper">
         <nav class="nav-head">
             <div class="logo-container">
                 <h1>da</h1>
             </div>
             <ul class='nav-list'>
-                <li class="nav-item"><a href="">Home</a></li>
-                <li class="nav-item"><a href="">Skills</a></li>
-                <li class="nav-item"><a href="">About Me</a></li>
-                <li class="nav-item"><a href="">Portfolio</a></li>
-                <li class="nav-item"><a href="">Contact Me</a></li>
+                <li class="nav-item"><a class="home-click" href="#home">Home</a></li>
+                <li class="nav-item"><a class="skills-click" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="about-click" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="portfolio-click" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="contact-click" href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
         <div class="hero-text">
@@ -34,8 +35,7 @@
         </div>    
     </div>
 </header>
-<body>
-    <section class="skills wrapper">
+    <section id="skills" class="skills wrapper">
         <div class="section-header">
             <h3>Skills & Tools Acquired Thus Far</h3>
         </div>
@@ -75,7 +75,7 @@
         
 
     </section>
-    <section class="about-me">
+    <section id="about" class="about-me">
         <div class="section-header">
             <h3>About Me</h3>
         </div>
@@ -101,7 +101,7 @@
 
         </div>
     </section>
-    <section class="portfolio wrapper">
+    <section id="portfolio" class="portfolio wrapper">
         <div class="section-header inner-wrapper">
             <h3>My Projects</h3>
         </div>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="portfolio-buttons">
                     <a class="demo" href="">Live Demo</a>
-                    <a class="gith" href="">GitHub</a>
+                    <a class="github" href="">GitHub</a>
                 </div>
             </div>
         </div>
@@ -138,7 +138,7 @@
                 </div>
                 <div class="portfolio-buttons">
                     <a class="demo" href="">Live Demo</a>
-                    <a class="gith" href="">GitHub</a>
+                    <a class="github" href="">GitHub</a>
                 </div>
             </div>
             <div class="portfolio portfolio-right">
@@ -162,7 +162,7 @@
                 </div>
                 <div class="portfolio-buttons">
                     <a class="demo" href="">Live Demo</a>
-                    <a class="gith" href="">GitHub</a>
+                    <a class="github" href="">GitHub</a>
                 </div>
             </div>
         </div>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="portfolio-buttons">
                     <a class="demo" href="">Live Demo</a>
-                    <a class="gith" href="">GitHub</a>
+                    <a class="github" href="">GitHub</a>
                 </div>
             </div>
             <div class="portfolio portfolio-right">
@@ -197,13 +197,13 @@
             </div>
         </div> -->
     </section>
-    <section class="contact-me">
+    <section id="contact" class="contact-me">
         <div class="inner-wrapper">
             <div class="section-header">
                 <h3>Get in Touch</h3>
             </div>
     
-            <form class="main-form" action=" action="https://formspree.io/darylamodan@gmail.com" method="POST"">
+            <form class="main-form" action="https://formspree.io/darylamodan@gmail.com" method="POST">
                 <div class="form-top">
                     <input type="email" name="_replyto" id="email" placeholder="Email"> 
                     <input type="text" name="name" id="name" placeholder="Name">
@@ -215,7 +215,6 @@
         </div>
 
     </section>
-</body>
 <footer>
     <div class="foot-icon inner-wrapper">
         <div class="foot-email"><i class="fa fa-envelope" aria-hidden="true"></i></div>
@@ -228,4 +227,8 @@
 
 
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="public/scripts/main.js"></script>
+</body>
+
 </html>

@@ -13,13 +13,13 @@ gulp.task('styles', () => {
         .pipe(gulp.dest('./public/styles'))
         .pipe(reload({ stream: true }));
 });
-gulp.task('scripts', () => {
+gulp.task('js', () => {
     return gulp.src('./dev/scripts/main.js')
-    .pipe(babel({
-        presets: ['env']
-    }))
-    .pipe(gulp.dest('./public/scripts'))
-    .pipe(reload({ stream: true }));
+        .pipe(babel({
+            presets: ['env']
+        }))
+        .pipe(gulp.dest('./public/scripts'))
+        .pipe(reload({ stream: true }));
 });
 gulp.task('browser-sync', () => {
     return browserSync.init({
@@ -28,7 +28,7 @@ gulp.task('browser-sync', () => {
         }
     });
 });
-gulp.task('default', ['browser-sync', 'styles', 'scripts'], () => {
+gulp.task('default', ['browser-sync', 'styles', 'js'], () => {
     gulp.watch('dev/**/*.js', ['js']);
     gulp.watch('dev/**/*.scss', ['styles']);
     gulp.watch('./public/styles/style.css', reload);

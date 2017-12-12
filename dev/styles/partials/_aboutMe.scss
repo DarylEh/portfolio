@@ -37,8 +37,14 @@
     background-color: $mainColor;
     margin: 10px;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 5px 20px;
+    transition: $allTrans;
 }
+.social-media-icon:hover {
+    transform: scale(1.2);
+    
+}
+
 .social-media i {
     font-size: 2rem;
     margin: 10px;

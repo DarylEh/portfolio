@@ -3,7 +3,8 @@ header {
     // background-size: contain;
     height: 100vh;
     // background: linear-gradient(90deg, #00f2fe 0%, #0393ff 100%),url('https://picsum.photos/1920/1080');
-    background: linear-gradient(90deg, rgba(0, 242, 254, .75) 0%, rgba(3, 147, 255, .75) 100%), url('/public/assets/background.jpg') no-repeat center;
+    background: linear-gradient(90deg, rgba(0, 242, 254, .75) 0%, rgba(3, 147, 255, .75) 100%), 
+    url('/public/assets/background.jpg') no-repeat center;
     background-size: cover;
     // position: relative;
 

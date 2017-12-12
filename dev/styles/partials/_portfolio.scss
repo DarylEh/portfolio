@@ -16,19 +16,54 @@
 }
 portfolio-right {
     text-align: left;
+
 }
 .portfolio-left img, 
 .portfolio-right img {
-    height: 100%;
-    width:100%;
+    max-width:100%;
 }
 .portfolio-tools {
     display: flex;
-    justify-content: space-around;
-    
+    flex-wrap: wrap;
+    margin: 15px 0;
+    // justify-content: space-around;
+        p {
+            border: 2px solid black;
+            padding: 5px 10px;
+            margin: 5px;
+        }
 }
-.portfolio-tools p {
-    border: 2px solid $mainColor;
+.portfolio-left .portfolio-tools {
+    justify-content: flex-end;
+
+}
+.portfolio-buttons a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin: 5px;
     padding: 5px 10px;
 
+}
+.portfolio-buttons a.demo {
+    border: 2px solid $mainColor;
+    transition: $allTrans;
+    
+}
+.portfolio-buttons a.demo:hover {
+    border: 2px solid $mainColor;
+    background-color: $mainColor;
+    color: $iconColor;
+    
+}
+.portfolio-buttons a.github {
+    border: 2px solid $secondaryColor;
+    color: $secondaryColor;
+    transition: $allTrans;
+    
+}
+.portfolio-buttons a.github:hover {
+    border: 2px solid $mainColor;
+    background-color: $mainColor;
+    color: $iconColor;
+    
 }

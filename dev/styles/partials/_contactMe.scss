@@ -28,4 +28,8 @@
     background-color: $mainColor;
     color: $anchorColor;
     font-size: 1.6rem;
+    transition: $allTrans;
+}
+.submitButton:hover {
+    transform: scale(1.2);
 }
