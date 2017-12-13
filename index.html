@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test</title>
+    <title>Welcome</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAlzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREREREBEREAAAAREQAREREREREREAERERERERERABEREREREREQAREREREREREAEREREREREAEREREREREAEREREREREAEREREREREAEREREREREQEREREREREREREREREREREREREREREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    
     <script src="https://use.fontawesome.com/dd362c6f7b.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Muli:400,700|Roboto:400,700" rel="stylesheet">    
     <link rel="stylesheet" href="public/styles/style.css">
@@ -23,21 +26,28 @@
                 <li class="nav-item"><a class="about-click" href="#about">About Me</a></li>
                 <li class="nav-item"><a class="portfolio-click" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="contact-click" href="#contact">Contact Me</a></li>
-                </ul>
-            </nav>
+            </ul>
+            <div class="dropdown burger">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <div class="dropdown-content">
+                    <a class="home-click" href="#home">Home</a>
+                    <a class="skills-click" href="#skills">Skills</a>
+                    <a class="about-click" href="#about">About Me</a>
+                    <a class="portfolio-click" href="#portfolio">Portfolio</a>
+                    <a class="contact-click" href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </nav>
         <div class="hero-text">
             <h1>Daryl Amodan</h1>
             <div class="line"></div>
             <h4>Front-End Web Developer</h4> 
-            <button class="header-button">Undecided</button>
-            <button class="header-button">Unecided</button>
-
         </div>    
     </div>
 </header>
     <section id="skills" class="skills wrapper">
         <div class="section-header">
-            <h3>Skills & Tools Acquired Thus Far</h3>
+            <h3>Skills & Tools</h3>
         </div>
         <div class="skills-list">
             <div class="skills-icons">
@@ -49,8 +59,6 @@
             <div class="skills-icons">
                 <i class="skills-icons-item devicon-css3-plain-wordmark"></i>
             </div>
-
-
             <div class="skills-icons">
                 <i class="skills-icons-item devicon-sass-original"></i>
             </div>
@@ -60,8 +68,6 @@
             <div class="skills-icons">
                 <i class="skills-icons-item devicon-jquery-plain-wordmark"></i>
             </div>
-    
-    
             <div class="skills-icons">
                 <i class="skills-icons-item devicon-gulp-plain"></i>
             </div>
@@ -72,8 +78,6 @@
                 <i class="skills-icons-item devicon-github-plain-wordmark"></i>
             </div>
         </div>
-        
-
     </section>
     <section id="about" class="about-me">
         <div class="section-header">
@@ -81,24 +85,26 @@
         </div>
         <div class="about-me-main wrapper">
             <div class="about-me-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea natus accusamus molestiae corrupti enim officiis alias reiciendis saepe ducimus deleniti cumque, repellendus suscipit eum aut nostrum? Atque quaerat tenetur aut?</p>
+                <p>Hello. My name is Daryl and I am a front-end developer located in Toronto and a recent graduate from HackerYou. The problem-solving,
+                constant learning and most importantly the creativity is what brought me into the WebDev world. At the end of the day my
+                goal is to create cool things on the web and if that interests you send me a shout.</p>
                 <h4>Follow me on </h4>
                 <div class="social-media">
                     <div class="social-media-icon">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <a href="https://twitter.com/DarylAmodan" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
                     </div>
                     <div class="social-media-icon">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <a href="https://www.linkedin.com/in/daryl-amodan/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
                     </div>
                     <div class="social-media-icon">
-                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <a href="https://github.com/DarylEh" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="about-me-photo">
                 <img src="/public/assets/headShot.jpg" alt="">
             </div>
-
         </div>
     </section>
     <section id="portfolio" class="portfolio wrapper">
@@ -120,16 +126,16 @@
                     <p>CSS / SASS</p>
                 </div>
                 <div class="portfolio-buttons">
-                    <a class="demo" href="">Live Demo</a>
-                    <a class="github" href="">GitHub</a>
+                    <a class="demo" href="https://soccerapp-9ccf0.firebaseapp.com/" target="_blank" >Live Demo</a>
+                    <a class="github" href="https://github.com/DarylEh/soccerApp" target="_blank" >GitHub</a>
                 </div>
             </div>
         </div>
-        <div class="portfolio-pieces">
+        <div class="portfolio-pieces flip">
             <div class="portfolio portfolio-left">
-                <h4>Gastronomy Journal</h4>
+                <h4>Restaurant Journal</h4>
                 <p>Combining the powers of React, Firebase and the open-table API—this App allows users to jot down notes of a restaurant they
-                recent visited.</p>
+                recently visited.</p>
                 <div class="portfolio-tools">
                     <p>React.JS</p>
                     <P>Firebase</P>
@@ -137,8 +143,8 @@
                     <p>Javascript</p>
                 </div>
                 <div class="portfolio-buttons">
-                    <a class="demo" href="">Live Demo</a>
-                    <a class="github" href="">GitHub</a>
+                    <a class="demo" href="http://darylamodan.com/projects/project5/" target="_blank">Live Demo</a>
+                    <a class="github" href="https://github.com/DarylEh/project5" target="_blank">GitHub</a>
                 </div>
             </div>
             <div class="portfolio portfolio-right">
@@ -161,12 +167,12 @@
                     <p>CSS</p>
                 </div>
                 <div class="portfolio-buttons">
-                    <a class="demo" href="">Live Demo</a>
-                    <a class="github" href="">GitHub</a>
+                    <a class="demo" href="http://darylamodan.com/projects/project4/" target="_blank" >Live Demo</a>
+                    <a class="github" href="https://github.com/DarylEh/project4" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>
-        <div class="portfolio-pieces">
+        <div class="portfolio-pieces flip">
             <div class="portfolio portfolio-left">
                 <h4>ZAP</h4>
                 <p>A modern, sleek and responsive PSD for a local agency.</p>
@@ -177,58 +183,56 @@
                     <p>Sass</p>
                 </div>
                 <div class="portfolio-buttons">
-                    <a class="demo" href="">Live Demo</a>
-                    <a class="github" href="">GitHub</a>
+                    <a class="demo" href="http://darylamodan.com/projects/project2/" target="_blank">Live Demo</a>
+                    <a class="github" href="https://github.com/DarylEh/project2" target="_blank">GitHub</a>
                 </div>
             </div>
             <div class="portfolio portfolio-right">
                     <img src="/public/assets/psd.png" alt="">
             </div>
         </div>
-        <!-- <div class="portfolio-pieces">
-            <div class="portfolio portfolio-left">
-                <h4>Portfolio Piece 4</h4>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut aliquid est ipsam totam numquam excepturi molestias
-                    aut, sunt modi autem eos non blanditiis libero, fugit quibusdam, odit labore perferendis.</p>
-            </div>
-            <div class="portfolio portfolio-right">
-                <img src="/public/assets/wrestlemania.png" alt="">
-            </div>
-        </div> -->
     </section>
     <section id="contact" class="contact-me">
         <div class="inner-wrapper">
             <div class="section-header">
                 <h3>Get in Touch</h3>
             </div>
-    
-            <form class="main-form" action="https://formspree.io/darylamodan@gmail.com" method="POST">
+            <form class="main-form" action="https://formspree.io/hello@darylamodan.com" method="POST">
                 <div class="form-top">
+                    <label class="visuallyhidden" for="email">Your Email:</label>
                     <input type="email" name="_replyto" id="email" placeholder="Email"> 
+                    <label class="visuallyhidden" for="name">Your Name:</label>
                     <input type="text" name="name" id="name" placeholder="Name">
-                </div> 
-                <textarea class="message" name="message" id="message" placeholder="Message" ></textarea>
-                <!-- <input class="message" type="text" name="message" id="message" placeholder="message"> -->
-                <input class="submitButton" type="submit" value="Send">
+                </div>
+                    <label class="visuallyhidden" for="message">Your Message:</label>
+                    <textarea class="message" name="message" id="message" placeholder="Message" ></textarea>
+                <div class="button-send">
+                    <input class="submitButton" type="submit" value="Send">
+                </div>
             </form>
         </div>
-
     </section>
 <footer>
-    <div class="foot-icon inner-wrapper">
-        <div class="foot-email"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-        <div class="foot-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-        <div class="foot-gitHub"><i class="fa fa-github" aria-hidden="true"></i></div>
-        <div class="foot-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+    <div class="foot-icon inner-wrapper"> 
+        <div class="foot-twitter">
+            <a href="https://twitter.com/DarylAmodan" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="foot-gitHub">
+            <a href="https://github.com/DarylEh" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="foot-linkedin">
+            <a href="https://www.linkedin.com/in/daryl-amodan/" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </div>
     </div>
-    <p>&copy Daryl Amodan 2017</p>
-
-
-
+    <p>&copy Daryl Amodan 2017 | Headshot by <a href="https://pamlau.com/" target="_blank">Pam Lau</a></p>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="public/scripts/main.js"></script>
 </body>
-
 </html>

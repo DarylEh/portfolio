@@ -4,7 +4,8 @@
 
 }
 .portfolio h4 {
-    margin-top: 0;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 .portfolio-left, 
 .portfolio-right {
@@ -21,6 +22,7 @@ portfolio-right {
 .portfolio-left img, 
 .portfolio-right img {
     max-width:100%;
+    box-shadow: -5px 30px 30px #d3d3d3;
 }
 .portfolio-tools {
     display: flex;
@@ -44,26 +46,29 @@ portfolio-right {
     padding: 5px 10px;
 
 }
-.portfolio-buttons a.demo {
-    border: 2px solid $mainColor;
-    transition: $allTrans;
-    
-}
-.portfolio-buttons a.demo:hover {
-    border: 2px solid $mainColor;
-    background-color: $mainColor;
-    color: $iconColor;
-    
-}
+.portfolio-buttons a.demo,
 .portfolio-buttons a.github {
-    border: 2px solid $secondaryColor;
-    color: $secondaryColor;
+    border: 2px solid $mainColor;
     transition: $allTrans;
+    color: #000000;
     
 }
+.portfolio-buttons a.demo:hover,
 .portfolio-buttons a.github:hover {
     border: 2px solid $mainColor;
     background-color: $mainColor;
     color: $iconColor;
     
 }
+// .portfolio-buttons a.github {
+//     border: 2px solid $secondaryColor;
+//     color: $secondaryColor;
+//     transition: $allTrans;
+    
+// }
+// .portfolio-buttons a.github:hover {
+//     border: 2px solid $mainColor;
+//     background-color: $mainColor;
+//     color: $iconColor;
+    
+// }
