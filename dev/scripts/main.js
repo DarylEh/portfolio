@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-    //smooth scroll
-    $("#button").click(function (e) {
+    //smooth scroll on nav
+    $(".nav-item a").click(function (e) {
         e.preventDefault();
         $("body").animate({ scrollTop: 1400 }, "slow");
     });

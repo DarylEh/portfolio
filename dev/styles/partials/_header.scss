@@ -1,20 +1,15 @@
 header {
-    // background: linear-gradient(90deg, #00f2fe 0%, #0393ff 100%);
-    // background-size: contain;
     height: 100vh;
-    // background: linear-gradient(90deg, #00f2fe 0%, #0393ff 100%),url('https://picsum.photos/1920/1080');
     background: linear-gradient(90deg, rgba(0, 242, 254, .75) 0%, rgba(3, 147, 255, .75) 100%), 
     url('/public/assets/background.jpg') no-repeat center;
     background-size: cover;
-    // position: relative;
-
+}
 .logo-container h1 {
     margin:0;
     font-family: $roboto, sans-serif;
     border: 4px solid $underlineColor;
     padding: 10px;
     color: $anchorColor;
-
 }
 .hero-text {
     backface-visibility: hidden;
@@ -25,15 +20,12 @@ header {
     font-family: $roboto, sans-serif;
     letter-spacing: 2px;
     margin-bottom: 5px;
-    // border-bottom: 2px  solid $underlineColor;
 }
 .hero-text h4 {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     margin-top: 20px;
-}
-    
 }
 .line {
     display: inline-block;
@@ -59,7 +51,6 @@ header {
     margin: 0 10px 0 10px;
     font-size: 1.6rem;
     transition: $allTrans;
-
 }
 .header-button:hover {
     background-color: #ffffff;
@@ -67,11 +58,7 @@ header {
 .nav-head {
     display: flex;
     justify-content: space-between;
-    
 } 
-// .logo-container {
-    
-// }
 .nav-list {
     display: flex;
     padding: 0;
@@ -83,7 +70,6 @@ header {
         transform: scale(1.2);
     }
         a {
-
             text-decoration: none;
             font-size: 1.8rem;
             color: $anchorColor;
@@ -91,20 +77,12 @@ header {
             letter-spacing: 1px;
             border-bottom: $underlineColor 2px solid;
             transition: $allTrans;
-
-        
-        }
+            }
             a:hover {
-                // color: $accentColor;
-        
                 transform: scale(2);
                 border-bottom: $accentColor 2px solid;
-                
-
             }
-
 }
-
 .navList a:hover, .navList a:focus {
     top: -3px;
     font-size: 0.8rem;
@@ -113,7 +91,6 @@ header {
     top: 40px;
     opacity: 1;
 }
-
 .hero-text {
     position: relative;
     top: 35%;

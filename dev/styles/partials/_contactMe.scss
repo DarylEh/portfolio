@@ -1,6 +1,5 @@
 .contact-me {
-    background-color: $secondaryBackgroundColor;
-    
+    background-color: $secondaryBackgroundColor; 
 }
 .main-form {
     display: flex;
@@ -19,7 +18,6 @@
     width: 97%;
     margin: 10px;
     padding: 10px;
-
 }
 .form-top input,
 .message {
@@ -42,7 +40,6 @@
     transition: $allTrans;
     padding: 10px 30px;
     font-size: 3rem;
-    
 }
 .submitButton:hover {
     transform: scale(1.2);

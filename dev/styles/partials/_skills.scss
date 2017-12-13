@@ -1,14 +1,8 @@
 .skills-icons-item {
     font-size: 8rem;
 }
-    
 .skills-icons {
-    // border: 1px solid black;
-    // margin: 0;
     background-color: $mainColor;
-    // display: flex;
-    // flex-direction: row;
-    // flex-wrap: wrap;
     width: calc(33% - 80px);
     text-align: center;
     color: #ffffff;
@@ -26,8 +20,6 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    // margin: 20px;
-    // padding: 20px;
 }
 .skills-list {
     display: flex;
