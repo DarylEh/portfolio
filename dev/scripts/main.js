@@ -34,4 +34,33 @@ $(document).ready(function () {
             scrollTop: $('#contact').offset().top
         }, 1000);
     });
+    // End of Smooth Scroll
+
+    //Init Scroll Magic
+    var controller = new ScrollMagic.Controller();
+        //Skills Scene
+        var ourSceneSkills = new ScrollMagic.Scene({
+            triggerElement: '.skills-list',
+            triggerHook: 0.9
+        })
+            .setClassToggle('.skills-list', 'fade-in')
+            .addTo(controller);
+        //About Me Scene
+        var ourSceneSkillsAboutMe = new ScrollMagic.Scene({
+            triggerElement: '.about-me-main',
+            triggerHook: 0.9
+        })
+            .setClassToggle('.about-me-main', 'fade-in')
+            .addTo(controller);
+        //portfolio-pieces scene
+        $('.portfolio-pieces').each(function(){
+            //Build A Scene 
+            var ourScene = new ScrollMagic.Scene({
+                triggerElement: this,
+                triggerHook:0.9
+            })
+                .setClassToggle(this, 'fade-in')
+                .addTo(controller); 
+        });
+    //End of Scroll Magic
 });

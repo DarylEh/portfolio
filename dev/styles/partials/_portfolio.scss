@@ -1,7 +1,13 @@
 .portfolio-pieces{
     display: flex;
     padding: 25px 0;
-
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-in;
+}
+.portfolio-pieces.fade-in {
+    opacity: 1;
+    transform: translateY(0px);
 }
 .portfolio h4 {
     margin-top: 0px;
@@ -15,7 +21,7 @@
 .portfolio-left {
     text-align: right;
 }
-portfolio-right {
+.portfolio-right {
     text-align: left;
 
 }

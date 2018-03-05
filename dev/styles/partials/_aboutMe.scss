@@ -1,12 +1,17 @@
 .about-me {
     background-color: $secondaryBackgroundColor;
-    
 }
 .about-me-main {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-in;
+}
+.about-me-main.fade-in {
+    opacity: 1;
+    transform: translateY(0px);
 }
 .about-me-content {
     display: flex;
@@ -17,20 +22,15 @@
         p {
             padding-right: 40px;
         }
-
 }
 .about-me-photo {
         width:25%;
-        
-        
     }
 .about-me-photo img {
     max-width: 100%;
     border-radius: 40px;
-    box-shadow: -2px 9px 25px #d3d3d3;
-    
+    box-shadow: -2px 9px 25px #d3d3d3;   
 }
-
 .about-me h3{
     border-bottom: 2px solid black;
     padding: 10px;
@@ -45,7 +45,6 @@
     background-color: $mainColor;
     margin: 10px;
     border-radius: 20px;
-    
     transition: $allTrans;
     box-shadow: -2px 9px 25px #d3d3d3;
     a {
@@ -54,7 +53,6 @@
 }
 .social-media-icon:hover {
     transform: scale(1.2);
-    
 }
 .social-media i {
     font-size: 2rem;
