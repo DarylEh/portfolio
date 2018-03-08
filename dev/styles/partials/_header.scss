@@ -1,8 +1,15 @@
 header {
     height: 100vh;
     background: linear-gradient(90deg, rgba(0, 242, 254, .75) 0%, rgba(3, 147, 255, .75) 100%), 
-    url('/public/assets/background.jpg') no-repeat center;
-    background-size: cover;
+    // background option 1
+    // url('/public/assets/background.jpg') no-repeat center;
+    // background-size: cover;
+}
+.particles-js-canvas-el {
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
 }
 .logo-container h1 {
     margin:0;
@@ -13,6 +20,7 @@ header {
 }
 .hero-text {
     backface-visibility: hidden;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
 }
 .hero-text h1 {
     color: #ffffff;
@@ -62,6 +70,7 @@ header {
 .nav-list {
     display: flex;
     padding: 0;
+    z-index: 20;
     li {
         margin: 10px;
         transition: $allTrans;
