@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118039207-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118039207-1');
+    </script>
+
     <meta charset="UTF-8">
     <!-- Viewport Meta Tag for Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +20,7 @@
     <!-- Dev Icons CDN -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Audiowide|Muli:400,700|Roboto:400,700" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Muli:400,700|Roboto:400,700" rel="stylesheet">
     <!-- High Stylin' and Profilin' CSS -->
     <link rel="stylesheet" href="public/styles/style.css">
     <!-- Meta World Peace -->
@@ -23,21 +34,32 @@
     <meta property="og:url" content="http://www.darylamodan.com" />
     <meta property="og:site_name" content="Daryl Amodan Website" />
 </head>
+
 <body>
     <!-- Home Page -->
-    <header id="home" >
+    <header id="home">
         <div id="particles-js">
-            <div class="header-content wrapper" >
+            <div class="header-content wrapper">
                 <nav class="nav-head">
                     <div class="logo-container">
                         <h1>da</h1>
                     </div>
                     <ul class='nav-list'>
-                        <li class="nav-item"><a class="home-click" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="skills-click" href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="about-click" href="#about">About Me</a></li>
-                        <li class="nav-item"><a class="portfolio-click" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="contact-click" href="#contact">Contact Me</a></li>
+                        <li class="nav-item">
+                            <a class="home-click" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="skills-click" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="about-click" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="portfolio-click" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="contact-click" href="#contact">Contact Me</a>
+                        </li>
                     </ul>
                     <div class="dropdown burger">
                         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -53,8 +75,8 @@
                 <div class="hero-text">
                     <h1>Daryl Amodan</h1>
                     <div class="line"></div>
-                    <h4>Front-End Web Developer</h4> 
-                </div>    
+                    <h4>Front-End Web Developer</h4>
+                </div>
             </div>
         </div>
     </header>
@@ -100,17 +122,25 @@
         </div>
         <div class="about-me-main wrapper">
             <div class="about-me-content">
-                <p>Hello, I'm Daryl! As a web developer, I am passionate about creating cool and creative websites that are accessible to all. After all, the internet is awesome and everyone should be in on it! I'm seeking a full-time role where I can hit the ground running, contribute my skills and continue growing as a developer. I'm ready to hustle and make amazing things happen, no matter what it takes!</p>
+                <p>Hello, I'm Daryl! As a web developer, I am passionate about creating cool and creative websites that are
+                    accessible to all. After all, the internet is awesome and everyone should be in on it! I'm seeking a
+                    full-time role where I can hit the ground running, contribute my skills and continue growing as a developer.
+                    I'm ready to hustle and make amazing things happen, no matter what it takes!</p>
                 <h4>Follow me on </h4>
                 <div class="social-media">
                     <div class="social-media-icon">
-                        <a href="https://twitter.com/DarylAmodan" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                        <a href="https://twitter.com/DarylAmodan" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
                     </div>
                     <div class="social-media-icon">
-                        <a href="https://www.linkedin.com/in/daryl-amodan/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
+                        <a href="https://www.linkedin.com/in/daryl-amodan/" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
                     </div>
                     <div class="social-media-icon">
-                        <a href="https://github.com/DarylEh" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+                        <a href="https://github.com/DarylEh" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
@@ -128,11 +158,14 @@
         <!-- Project - Can you Make it? -->
         <div class="portfolio-pieces">
             <div class="portfolio portfolio-left">
-                <a class="photo-link" href="https://soccerapp-9ccf0.firebaseapp.com/" target="_blank"><img src="/public/assets/soccer.png" alt="screenshot of soccerapp"></a>
+                <a class="photo-link" href="https://soccerapp-9ccf0.firebaseapp.com/" target="_blank">
+                    <img src="/public/assets/soccer.png" alt="screenshot of soccerapp">
+                </a>
             </div>
             <div class="portfolio portfolio-right">
                 <h4>Can you make it?</h4>
-                <p>A React and Firebase App which allows teams from recreational leagues the ability to manage their games and roster attendance.</p>
+                <p>A React and Firebase App which allows teams from recreational leagues the ability to manage their games and
+                    roster attendance.</p>
                 <div class="portfolio-tools">
                     <p>React.JS</p>
                     <P>Firebase</P>
@@ -141,8 +174,8 @@
                     <p>CSS / SASS</p>
                 </div>
                 <div class="portfolio-buttons">
-                    <a class="demo" href="https://soccerapp-9ccf0.firebaseapp.com/" target="_blank" >Live Demo</a>
-                    <a class="github" href="https://github.com/DarylEh/soccerApp" target="_blank" >GitHub</a>
+                    <a class="demo" href="https://soccerapp-9ccf0.firebaseapp.com/" target="_blank">Live Demo</a>
+                    <a class="github" href="https://github.com/DarylEh/soccerApp" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>
@@ -171,11 +204,14 @@
         <!-- Project - Reddit API -->
         <div class="portfolio-pieces flip">
             <div class="portfolio portfolio-left">
-                <a class="photo-link" href="http://darylamodan.com/projects/ooh-thats-interesting/" target="_blank"><img src="/public/assets/reddit.png" alt="screenshot of reddit app"></a>
+                <a class="photo-link" href="http://darylamodan.com/projects/ooh-thats-interesting/" target="_blank">
+                    <img src="/public/assets/reddit.png" alt="screenshot of reddit app">
+                </a>
             </div>
             <div class="portfolio portfolio-right">
                 <h4>Reddit API</h4>
-                <p>Combining the powers of JavaScript and the reddit API — this App allows users to search millions of reddit articles. </p>
+                <p>Combining the powers of JavaScript and the reddit API — this App allows users to search millions of reddit
+                    articles. </p>
                 <div class="portfolio-tools">
                     <p>JavaScript</p>
                     <p>API</p>
@@ -218,7 +254,7 @@
             </div>
             <div class="portfolio portfolio-right">
                 <h4>Virtua Table Tennis</h4>
-                <p>The future is here!  Play a game of Virtua Table Tennis.  Created using Vanilla JS and HTML Canvas.
+                <p>The future is here! Play a game of Virtua Table Tennis. Created using Vanilla JS and HTML Canvas.
                 </p>
                 <div class="portfolio-tools">
                     <p>HTML5</p>
@@ -263,12 +299,12 @@
             <form class="main-form" action="https://formspree.io/hello@darylamodan.com" method="POST">
                 <div class="form-top">
                     <label class="visuallyhidden" for="email">Your Email:</label>
-                    <input type="email" name="_replyto" id="email" placeholder="Email"> 
+                    <input type="email" name="_replyto" id="email" placeholder="Email">
                     <label class="visuallyhidden" for="name">Your Name:</label>
                     <input type="text" name="name" id="name" placeholder="Name">
                 </div>
-                    <label class="visuallyhidden" for="message">Your Message:</label>
-                    <textarea class="message" name="message" id="message" placeholder="Message" ></textarea>
+                <label class="visuallyhidden" for="message">Your Message:</label>
+                <textarea class="message" name="message" id="message" placeholder="Message"></textarea>
                 <div class="button-send">
                     <input class="submitButton" type="submit" value="Send">
                 </div>
@@ -277,7 +313,7 @@
     </section>
     <!-- Page Footer -->
     <footer>
-        <div class="foot-icon inner-wrapper"> 
+        <div class="foot-icon inner-wrapper">
             <div class="foot-twitter">
                 <a href="https://twitter.com/DarylAmodan" target="_blank">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -294,7 +330,9 @@
                 </a>
             </div>
         </div>
-        <p class="wrapper" >&copy Daryl Amodan 2017 | Headshot by <a href="https://pamlau.com/" target="_blank">Pam Lau</a></p>
+        <p class="wrapper">&copy Daryl Amodan 2017 | Headshot by
+            <a href="https://pamlau.com/" target="_blank">Pam Lau</a>
+        </p>
     </footer>
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/dd362c6f7b.js"></script>
@@ -312,4 +350,5 @@
     <!-- Load those Scripts -->
     <script src="public/scripts/main.js"></script>
 </body>
+
 </html>
